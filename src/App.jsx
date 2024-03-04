@@ -1,6 +1,7 @@
-import { BrowserRouter } from "react-router-dom";
-
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        {/* Include Analytics component */}
+        <Analytics />
       </div>
     </BrowserRouter>
   );
