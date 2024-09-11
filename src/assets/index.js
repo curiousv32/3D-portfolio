@@ -29,6 +29,9 @@ import sob from "./company/sob.png";
 import devwyre from "./company/devwyre.png";
 
 import carrent from "./carrent.png";
+import hero from "./hero.png";
+import bitcoin from "./bitcoin.png";
+import assemble from "./assemble.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -63,4 +66,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  hero,
+  bitcoin,
+  assemble,
 };

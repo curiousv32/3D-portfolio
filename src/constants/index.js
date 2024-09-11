@@ -22,6 +22,9 @@ import {
     tesla,
     shopify,
     carrent,
+    hero,
+    bitcoin,
+    assemble,
     jobit,
     tripguide,
     threejs,
@@ -131,8 +134,8 @@ import {
       ],
     },
     {
-      title: "Blockchain Developer",
-      company_name: "Summer Of Bitcoin(open source)",
+      title: "Blockchain Developer(internship)",
+      company_name: "Summer Of Bitcoin(Bitcoin-core contributor)",
       icon: sob,
       iconBg: "#E6DEDD",
       date: "Feb 2023 - August 2023",
@@ -148,7 +151,7 @@ import {
       company_name: "Vendavault",
       icon: devwyre,
       iconBg: "#383E56",
-      date: "March 2023 - present",
+      date: "March 2023 - April 2024",
       points: [
         "Designing and developing scalable, high-performance backend services using modern frameworks and technologies.",
         "Designing and implementing data storage solutions and ensuring their scalability and security.",
@@ -173,88 +176,100 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Victor proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "After Victor optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //   testimonial:
+    //     "I thought it was impossible to make a website as beautiful as our product, but Victor proved me wrong.",
+    //   name: "Sara Lee",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "After Victor optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
   ];
   
   const projects = [
     {
-      name: "E-commerce",
+      name: "Chow Chow Food Ordering App",
       description:
-        "Web-based E-Commerce platform offering users a streamlined experience to explore, shop, and manage products from sellers dashboard. Revolutionize your online shopping journey with  user-friendly interface and powerful features.",
+        "A comprehensive food ordering platform that enables users to create and manage restaurants, place orders, and process payments seamlessly through Stripe. Offers a user-friendly interface and real-time order tracking for both restaurant owners and customers.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "pink-text-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          color: "yellow-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/curiousv32/ecommerce-admin",
-    },
+      image: hero, 
+      source_code_link: "https://github.com/curiousv32/chow-chow-foodapp-frontend",
+    },    
     {
-      name: "CryptCompare",
+      name: "BIP 340 Adaptor Signatures",
       description:
-        "Cryptcompare is your go-to web application for comparing Bitcoin prices across different exchanges. Easily check and compare current market rates, ensuring you stay informed and make smart cryptocurrency trading decisions effortlessly.",
+        "The BIP 340 Adaptor Signatures Module for libsecp256k1-zkp enhances Bitcoin transactions by implementing advanced cryptographic protocols. It builds on Schnorr signatures to improve privacy, security, and functionality. ",
       tags: [
         {
-          name: "react",
+          name: "cryptography",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "bitcoin",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "security",
           color: "pink-text-gradient",
         },
+        {
+          name: "libsecp256k1",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/curiousv32/Cryptcompare",
-    },
-    // {
-    //   name: "web3",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
+      image: bitcoin, 
+      source_code_link: "https://curiousv32.github.io/bitcoin-node.github.io/",
+    },    
+    {
+      name: "Assemble",
+      description:
+        "Assemble is a one-stop mobile application designed to help post-secondary students manage their academic and life tasks more efficiently. The app integrates note-taking, study tools, and to-do lists into a single platform, simplifying the process of staying organized and focused. By consolidating multiple tools into one, Assemble enhances productivity, reduces cognitive load, and ensures students never miss a deadline.",
+      tags: [
+        {
+          name: "android mobile-app",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "productivity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "note-taking",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "study-tools",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: assemble,  // Assuming 'hero' is an image relevant to Assemble. Replace if needed.
+      source_code_link: "https://curiousv32.github.io/posts/study-app-project-presentation/",
+    },    
     // {
     //   name: "Trip Guide",
     //   description:
